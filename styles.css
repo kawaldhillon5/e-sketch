@@ -1,0 +1,35 @@
+html,body{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    height: 100%;
+    margin: 0;
+    align-items: center;
+}
+
+#sel{
+    flex: 1;
+    background-color: white;
+    margin: 50px;
+}
+
+#container {
+    flex: 1;
+    flex-wrap: wrap;
+    background-color: white;
+    display: flex;
+    justify-content:left;
+    margin: 50px;
+    min-height: 500px;
+    min-width: 500px;
+}
+
+.pixel {
+    margin: 0;
+    background-color: white;
+    border: 1px  solid;
+    border-color: black;
+    box-sizing: border-box;
+    object-fit: fill;
+}
+
