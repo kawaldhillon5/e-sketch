@@ -7,10 +7,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="sel"></div>
-    <div id="container">
+    <header>Etch-a-sketch</header>
+    <div id="main">
+        <div id="sel">
+        <button id="blk" class="btn">Black</button>
+        <input class="btn" id="cstm" type="color" value="#333333">
+        <button id="ers" class="btn">Erase</button>
+        <button id="clr" class="btn">Clear</button>
+        <div id="t" class="btn"></div>
+        <div class="slidecontainer btn ">
+            <input type="range" min="1" max="100" value="16" class="slider" id="myRange">
+          </div>
+        </div>
+        <div id="container">
+        </div>
     </div>
-
+    <div id="footer">Kawal Dhillon</div>
     <script src="script.js"></script>
 </body>
 </html>
